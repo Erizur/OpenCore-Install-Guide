@@ -7,12 +7,14 @@ actionLink: prerequisites.md
 
 meta:
 - name: description
-  content: Current supported version 0.6.1
+  content: Version soportada actualmente 0.6.1
 ---
 
-# What is OpenCore and who is this guide for
+# Qué es OpenCore y para quién es esta guía
 
-OpenCore is what we refer to as a "boot loader", this is a complex piece of software that we use to prepare our systems for macOS. Specifically by injecting new data for macOS such as SMBIOS, ACPI tables and kexts. How this tool differs from others like Clover is that this has been designed with security and quality in mind, allowing us to use many security features found on real macs such as SIP and FileVault. A more in-depth look can be found at here: [Why OpenCore over Clover and others](why-oc.md)
+* **Advertencia**: Esta traduccion de la guia de OpenCore es no oficial ya que no está afiliada a [Dortania](https://github.com/dortania), por lo tanto esta guía puede quedar obsoleta rapidamente.
+
+OpenCore es lo que referimos como un "gestor de arranque", esto es una compleja pieza de software que usamos para preparar nuestros sistemas para macOS. Especificamente, inyectando nuevos datos para macOS como SMBIOS, tablas de ACPI y extensiones del kernel (kexts). Esta herramienta es diferente a otras como Clover porque ha sido diseñado con security y calidad en mente, permitiendonos usar to use many security features found on real macs such as SIP and FileVault. A more in-depth look can be found at here: [Why OpenCore over Clover and others](why-oc.md)
 
 This guide specifically focuses on 2 main things:
 
