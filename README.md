@@ -14,15 +14,17 @@ meta:
 
 * **Advertencia**: Esta traduccion de la guia de OpenCore es no oficial ya que no está afiliada a [Dortania](https://github.com/dortania), por lo tanto esta guía puede quedar obsoleta rapidamente.
 
-OpenCore es lo que referimos como un "gestor de arranque", esto es una compleja pieza de software que usamos para preparar nuestros sistemas para macOS. Especificamente, inyectando nuevos datos para macOS como SMBIOS, tablas de ACPI y extensiones del kernel (kexts). Esta herramienta es diferente a otras como Clover porque ha sido diseñado con security y calidad en mente, permitiendonos usar to use many security features found on real macs such as SIP and FileVault. A more in-depth look can be found at here: [Why OpenCore over Clover and others](why-oc.md)
+OpenCore es lo que referimos como un "gestor de arranque", esto es una compleja pieza de software que usamos para preparar nuestros sistemas para macOS. Especificamente, inyectando nuevos datos para macOS como SMBIOS, tablas de ACPI y extensiones del kernel (kexts). Esta herramienta es diferente a otras como Clover porque ha sido diseñado con security y calidad en mente, permitiendonos usar varias caracteristicas de seguridad encontradas en macs reales como SIP (Proteccion de la Integridad del Sistema) y FileVault. Mas informacion puede ser vista aquí: [Porque OpenCore y no Clover u otros](why-oc.md)
 
-This guide specifically focuses on 2 main things:
+Esta guía especificamente se focaliza en 2 cosas principales:
 
-* Installing macOS on an X86 based PC
-* Teaching you what makes your hack work
+* Instalar macOS en una PC basada en x86
+* Enseñarte que hace que tu hackintosh funcione
 
-Because of this, you will be expected to read, learn and even google. This is not a simple 1-click install setup.
+Debido a esto, es muy necesario leer, aprender e incluso buscar en Google.
+Esto no es una instalacion simple de 1 click.
 
-Please remember that OpenCore is still new and currently in beta. While quite stable, and arguably much more stable than Clover in pretty much every way, it is still being frequently updated and so chunks of configuration change quite often(ie. New quirks replacing old ones)
+Porfavor, acuerdese de que OpenCore es recién nuevo y en beta. Aunque sea un poco estable, mucho mas estable que Clover en varias maneras, sigue siendo actualizado frequentemente y varios chunks de configuracion cambian muy frequente. (Ejemplo: Nuevos Quirks replazando otros)
 
-Lastly, those having issues can visit both the [r/Hackintosh subreddit](https://www.reddit.com/r/hackintosh/) and [r/Hackintosh discord](https://discord.gg/u8V7N5C) for more help.
+Finalmente, los que tienen problemas pueden visitar el [Subreddit r/Hackintosh (En Inglés)](https://www.reddit.com/r/hackintosh/) y el [discord de r/Hackintosh (También en Inglés)](https://discord.gg/u8V7N5C) para mas ayuda.
+
